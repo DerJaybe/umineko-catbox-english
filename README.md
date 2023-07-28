@@ -1,7 +1,7 @@
 ## Umineko Saku German
 
 Mit diesem Patch kommt Umineko endlich nach Deutschland! Erlebe alle 8 Episoden und Bonuskapitel mit allen Verbesserungen 
-der Konsolenversion von Umineko When They Cry Saku ~Symphonie der Katzenbox und Träume~
+der Konsolenversion von Umineko When They Cry Saku Symphonie der Katzenbox und Träume
 
 Link zum originalen Englisch Patch auf den dieser hier basiert [https://andolga.github.io/umineko-catbox-english](https://andolga.github.io/umineko-catbox-english)
 
