@@ -14,12 +14,6 @@ jobs:
         run: bash build.sh
         env:
           SKIP_ARCHIVE: 1
-        
-      - name: Upload Atmos build
-        uses: actions/upload-artifact@v3
-        with:
-          name: patch_atmos
-          path: mods
           
       - name: Create yuzu subfolder
         run: |
