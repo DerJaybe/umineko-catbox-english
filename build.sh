@@ -35,7 +35,7 @@ then # Local/dev build
     rm -rf mods
 elif [ -e "$UMINEKO_TARGET_YUZU" ]
 then # Local/dev build
-    MODBASE_YUZU=$UMINEKO_TARGET_YUZU/load/01006A300BA2C000/UminekoCatboxGerman
+    MODBASE_YUZU=$UMINEKO_TARGET_YUZU/load/01006A300BA2C000/UminekoCatboxEnglish
     mkdir -p "$MODBASE_YUZU/" 2> /dev/null || true
     cp -rf $MODBASE/* "$MODBASE_YUZU/"
     cp -rf mods/exefs_patches/umineko/*.ips "$MODBASE_YUZU/exefs/"
@@ -47,12 +47,12 @@ else # Public build
         zip -r ../patch_atmos.zip .
     fi
     cd ..
-    mkdir UminekoCatboxGerman
-    cp -r $MODBASE/* UminekoCatboxGerman/
-    cp mods/exefs_patches/umineko/*.ips UminekoCatboxGerman/exefs/
+    mkdir UminekoCatboxEnglish
+    cp -r $MODBASE/* UminekoCatboxEnglish/
+    cp mods/exefs_patches/umineko/*.ips UminekoCatboxEnglish/exefs/
     if [ "$SKIP_ARCHIVE" != 1 ]
     then
-        zip -r patch_yuzu.zip UminekoCatboxGerman
+        zip -r patch_yuzu.zip UminekoCatboxEnglish
     fi
     cd ..
 fi

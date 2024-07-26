@@ -32,28 +32,28 @@
 0x15b027	- First twilight@r"Looks like @c649.all of the victims died instantly@c999.. ......Kihihihihi."@r@r- Second twilight@r"@c649.We put duct tape all over the outside of the doors and windows, sealing them@c999.!"@r@r- Seventh twilight@r"@c649.Everything is locked up perfectly@c999.. How did it happen, if this is a locked room?"@r@r- Eighth twilight@r"@c649.There's no way she could live through this@c999.. Kihihihihi."@r"Yeah. @c649.The three of us couldn't have killed Jessica@c999.."@r"Kihihi, thanks. @c649.George onii-chan couldn't kill an adult. He could kill a kid though@c999.. Kihihihihihi."	■第一の晩@z100.@r「@c649.犠牲者はみんな、即死@c999.だったろうね。……きひひひひひ」@r@z25.@r@z100.@z110.■第二の晩@z100.@r「@c649.外からガムテープでベタベタと、窓や扉を封印したよ！@c999.」@r@z25.@r@z100.@z110.■第七の晩@z100.@r「@c649.戸締りは完璧だよ。@c999.密室なのにどうして？」@r@z25.@r@z100.@z110.■第八の晩@z100.@r「@c649.これで生きているわけがない@c999.もんね。きひひひひ」@r@z25.@r@z100.「うん。@c649.私たち３人に朱志香は殺せない@c999.」@r@z25.@r@z100.「きひひ、ありがとう。@c649.譲治お兄ちゃんだって、大人は殺せないよ。子供は殺せるけれど。@c999.きひひひひひひ」
 0x161012	- First twilight@r"@c649.Doctor Nanjo and I confirmed that Genji-sama was dead@c999.."@r@r- Second twilight@r"@c649.Krauss-sama and Natsuhi-sama lay sprawled on the floor inside the room@c999.."@r"@c649.All of us servants can prove an alibi for all of the other servants@c999.."	■第一の晩@z100.@r「@c649.僕と南條先生は、源次さまが死んでいることを確認しました@c999.」@r@z25.@r@z100.@z110.■第二の晩@z100.@r「@c649.部屋の中には、蔵臼さまと夏妃さまが倒れていました@c999.」@r@z25.@r@z100.「@c649.僕たち使用人全員は、それぞれが使用人全員のアリバイを証明できます@c999.」
 0x15d200	- First twilight@r"@c649.That's when I arrived@c999.. I recommended that he try unlocking the door, just in case."@r"@c649.Eva-sama, Hideyoshi-sama, Rudolf-sama, Kyrie-sama, Rosa-sama, and Genji-san, six people in all, were lying there, covered in blood......@c999."	■第一の晩@z100.@r「@c649.そこに私が来たのです。@c999.万一のこともあるから、鍵を開けてみたらと勧めたのです」@r@z25.@r@z100.「@c649.絵羽さま、秀吉さま、留弗夫さま、霧江さま、楼座さま、そして源次さんの、計６人が血塗れになって倒れていたのでございます……@c999.」
-0x162c2a	Weiterlesen vom Lesezeichen?	ロードします。よろしいですか？
-0x162c58	Lesezeichen entfernen?	このセーブデータを削除します。よろしいですか？
-0x162147	Lesezeichen setzen?	セーブを行います。よろしいですか？
-0x162fd0	Lesezeichen bewegen?	セーブを行います。@r内容は上書きされますが、よろしいですか？
-0x15f8f8	unbenutzt	データがありません
-0x162105	Letzte Position	カーソル位置
-0x161aae	Spielposition	ゲーム内現在位置
-0x15dd4e	Aktuelle Position	カーソル位置/ゲーム内現在位置
+0x162c2a	Continue reading from this bookmark?	ロードします。よろしいですか？
+0x162c58	Remove this bookmark?	このセーブデータを削除します。よろしいですか？
+0x162147	Place this bookmark on the current page?	セーブを行います。よろしいですか？
+0x162fd0	Move this bookmark to the current page?	セーブを行います。@r内容は上書きされますが、よろしいですか？
+0x15f8f8	Unused bookmark	データがありません
+0x162105	Highlight position	カーソル位置
+0x161aae	In-game position	ゲーム内現在位置
+0x15dd4e	Current position	カーソル位置/ゲーム内現在位置
 0x163263	Start	先頭
-0x161ac7	Ende	後尾
-0x15f87a	ALLES Zurücksetzen?	設定を初期値に戻します。よろしいですか？
-0x162ebe	Zum Hauptmenü?	ゲームを終了して、タイトル画面に戻ります。@rよろしいですか？
-0x1619f6	Kapitel überspringen?	次のチャプターか選択肢までスキップします。@rよろしいですか？
-0x15fb2d	Zurück zum letzten Kapitel?	前のチャプターに戻ります。@rよろしいですか？
+0x161ac7	End	後尾
+0x15f87a	Reset ALL settings to default?	設定を初期値に戻します。よろしいですか？
+0x162ebe	Go back to the title screen?	ゲームを終了して、タイトル画面に戻ります。@rよろしいですか？
+0x1619f6	Skip this chapter?	次のチャプターか選択肢までスキップします。@rよろしいですか？
+0x15fb2d	Return to the last chapter?	前のチャプターに戻ります。@rよろしいですか？
 0x15b467	%dh %dm	%d時間 %d分
 0x164021	%dm	%d分
-0x161a50	Ja	はい
-0x161d57	Nein	いいえ
-0x15c8eb	Zur Zeile springen?	シーンジャンプを実行します。@rよろしいですか？
-0x15f024	Speichervorgang.@rBitte nicht beenden.	セーブデータを更新中です。@r電源を切ったり、アプリケーションを終了したりしないでください。
-0x16468c	Spiel starten?	このシナリオを開始します。@rよろしいですか？
-0x16119c	Alle Acht Hauptepisoden@rwerden als gelesen markiert.@rDiese Story kann nicht richtig@raußerhalb der Reihenfolge erlebt werden.@rÜberspringe nichts,@rdass du noch nicht gelesen hast.@r@rakzeptieren?	本編シナリオの全てと、追加シナリオの一部をアンロックします。よろしいですか？@r@z75.一度アンロックしたら元の状態に戻すことはできません。ご注意ください。
-0x161d8e	Ruhemodus ausgeschaltet@rim Automodus und Musikbox	オートモード中とMusicBoxの楽曲再生中は、@r本体の自動スリープ機能が動作しないようになります。
+0x161a50	Yes	はい
+0x161d57	No	いいえ
+0x15c8eb	Start reading from the selected line?	シーンジャンプを実行します。@rよろしいですか？
+0x15f024	Writing save data.@rPlease do not close the game.	セーブデータを更新中です。@r電源を切ったり、アプリケーションを終了したりしないでください。
+0x16468c	Start the game?	このシナリオを開始します。@rよろしいですか？
+0x16119c	All eight main Episodes@rwill be marked as read.@rThe story cannot be experienced@rout of intended order.@rYou should not use this option to skip content@ryou have never read before.@r@rDo you accept?	本編シナリオの全てと、追加シナリオの一部をアンロックします。よろしいですか？@r@z75.一度アンロックしたら元の状態に戻すことはできません。ご注意ください。
+0x161d8e	Automatic sleep will now be disabled@rwhen using Auto Mode and the Music Box.	オートモード中とMusicBoxの楽曲再生中は、@r本体の自動スリープ機能が動作しないようになります。
 0x163da3	OK	確認
-0x15e9cf	Erspielt: 	達成率:
+0x15e9cf	Unlocked: 	達成率:
