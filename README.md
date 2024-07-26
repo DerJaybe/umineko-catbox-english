@@ -35,9 +35,8 @@ Darüber hinaus wäre dieser Patch ohne die von den folgenden Projekten bereitge
 ## Anwendung des Patches
 
 Das Spiel und dieser Patch können auf zwei Arten gespielt werden:
-- Auf PCs, mit Yuzu oder Ryujinx
+- Auf PCs, mit Suyu oder Ryujinx
 - Auf Macs, mit Ryujinx
-- Auf ausgewählten Android-Geräten, mit yuzu
 - Auf hackbaren Switches, mit Atmosphère
 
 Unabhängig von der Plattform, auf der du spielen willst, benötigst du eine Kopie des Basisspiels und den Entschlüsselungsschlüssel prod.key dafür. *Ich werde diesen nicht bereitstellen!*
