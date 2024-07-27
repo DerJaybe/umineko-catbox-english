@@ -32,6 +32,7 @@ UMINEKO_TARGET_SUYU="/mnt/c/Users/YOUR NAME/AppData/Roaming/suyu"
 
 if [ -e "$UMINEKO_TARGET_SUYU" ]
 then # Local/dev build
+    echo "=== This fails if you have Umineko Saku currently running ==="
     echo "=== Copying UminekoCatboxGerman directory structure to suyu... ==="
     MODBASE_SUYU=$UMINEKO_TARGET_SUYU/load/01006A300BA2C000/UminekoCatboxGerman
     mkdir -p "$MODBASE_SUYU/" 2> /dev/null || true
