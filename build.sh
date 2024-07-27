@@ -28,18 +28,17 @@ mkdir -p mods/exefs_patches/umineko/
 mv 7616F8963DACCD70E20FF3904E13367F96F2D9B3000000000000000000000000.ips mods/exefs_patches/umineko/
 rm patch.snr
 
-echo "=== Deploying... ==="
-if [ -e "$UMINEKO_TARGET" ]
+UMINEKO_TARGET_SUYU="/mnt/c/Users/YOUR NAME/AppData/Roaming/suyu"
+
+if [ -e "$UMINEKO_TARGET_SUYU" ]
 then # Local/dev build
-    cp -rf mods "$UMINEKO_TARGET"
+    echo "=== Copying UminekoCatboxGerman directory structure to suyu... ==="
+    MODBASE_SUYU=$UMINEKO_TARGET_SUYU/load/01006A300BA2C000/UminekoCatboxGerman
+    mkdir -p "$MODBASE_SUYU/" 2> /dev/null || true
+    cp -rf $MODBASE/* "$MODBASE_SUYU/"
+    cp -rf mods/exefs_patches/umineko/*.ips "$MODBASE_SUYU/exefs/"
     rm -rf mods
-elif [ -e "$UMINEKO_TARGET_YUZU" ]
-then # Local/dev build
-    MODBASE_YUZU=$UMINEKO_TARGET_YUZU/load/01006A300BA2C000/UminekoCatboxGerman
-    mkdir -p "$MODBASE_YUZU/" 2> /dev/null || true
-    cp -rf $MODBASE/* "$MODBASE_YUZU/"
-    cp -rf mods/exefs_patches/umineko/*.ips "$MODBASE_YUZU/exefs/"
-    rm -rf mods
+    echo "Should work now, start suyu and the game."
 else # Public build
     cd mods
     if [ "$SKIP_ARCHIVE" != "1" ]
@@ -52,7 +51,7 @@ else # Public build
     cp mods/exefs_patches/umineko/*.ips UminekoCatboxGerman/exefs/
     if [ "$SKIP_ARCHIVE" != 1 ]
     then
-        zip -r patch_yuzu.zip UminekoCatboxGerman
+        zip -r patch_suyu.zip UminekoCatboxGerman
     fi
     cd ..
 fi
