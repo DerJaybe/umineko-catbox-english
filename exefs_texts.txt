@@ -53,7 +53,7 @@
 0x15c8eb	Zur Zeile springen?	シーンジャンプを実行します。@rよろしいですか？
 0x15f024	Speichervorgang.@rBitte nicht beenden.	セーブデータを更新中です。@r電源を切ったり、アプリケーションを終了したりしないでください。
 0x16468c	Spiel starten?	このシナリオを開始します。@rよろしいですか？
-0x16119c	Alle Acht Hauptepisoden@rwerden als gelesen markiert.@rDiese Story kann nicht richtig@raußerhalb der Reihenfolge erlebt werden.@rÜberspringe nichts,@rdass du noch nicht gelesen hast.@r@rakzeptieren?	本編シナリオの全てと、追加シナリオの一部をアンロックします。よろしいですか？@r@z75.一度アンロックしたら元の状態に戻すことはできません。ご注意ください。
+0x16119c	Alle Episoden@rwerden als gelesen markiert.@rDiese Story kann nicht richtig@raußerhalb der Reihenfolge erlebt werden.@rÜberspringe nichts,@rdass du noch nicht gelesen hast.@r@rakzeptieren?	本編シナリオの全てと、追加シナリオの一部をアンロックします。よろしいですか？@r@z75.一度アンロックしたら元の状態に戻すことはできません。ご注意ください。
 0x161d8e	Ruhemodus ausgeschaltet@rim Automodus und Musikbox	オートモード中とMusicBoxの楽曲再生中は、@r本体の自動スリープ機能が動作しないようになります。
 0x163da3	OK	確認
 0x15e9cf	Erspielt: 	達成率:
