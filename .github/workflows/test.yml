@@ -21,13 +21,13 @@ jobs:
           name: patch_atmos
           path: mods
           
-      - name: Create yuzu subfolder
+      - name: Create suyu subfolder
         run: |
-          mkdir patch_yuzu
-          mv UminekoCatboxGerman patch_yuzu/UminekoCatboxGerman
+          mkdir patch_suyu
+          mv UminekoCatboxGerman patch_suyu/UminekoCatboxGerman
       
-      - name: Upload yuzu build
+      - name: Upload suyu build
         uses: actions/upload-artifact@v3
         with:
-          name: patch_yuzu
-          path: patch_yuzu
+          name: patch_suyu
+          path: patch_suyu
